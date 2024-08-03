@@ -108,8 +108,8 @@ for (let i = 0; i < 26; i++) {
 console.log(`${player1.name} Score: ${player1.score}`);
 console.log(`${player2.name} Score: ${player2.score}`);
 
-                // Recognize and display the winner!
-                
+                // Recognize and display the winner! 
+
 if (player1.score > player2.score) {
     console.log(`${player1.name} wins!`);
 } else if (player1.score < player2.score) {
